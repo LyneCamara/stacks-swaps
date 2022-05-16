@@ -34,9 +34,9 @@ export default function App() {
           </a>
         </div>
         <div className="text-center">
-          <span className="h1">Exchange Your Coins Tokens and NFTs</span>
+          <span className="h1">Catamaran Swaps</span>
           <br />
-          <span className="p"> </span>
+          <span className="p">Trustless exchange of digital assets</span>
         </div>
         <div className="btn-group btn-group-lg" role="group" aria-label="Basic outlined example">
           <ProfileSmall />

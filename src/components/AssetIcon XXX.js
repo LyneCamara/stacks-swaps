@@ -3,13 +3,11 @@ import {
   BOOMBOX,
   FARI_TOKEN,
   MIA_TOKEN,
-  NYC_TOKEN,
   THIS_IS_NUMBER_ONE,
   CRASHPUNKS,
   BANANA_TOKEN,
   USDA_TOKEN,
   DIKO_TOKEN,
-  BUK_TOKEN,
   SATOSHIBLES,
   BITCOIN_MONKEYS,
 } from './assets';
@@ -30,8 +28,6 @@ export function AssetIcon({ type, trait, small, bw }) {
       switch (trait) {
         case MIA_TOKEN:
           return <img src="/mia.png" className="m-1" width={size} height={size} alt="mia" />;
-        case NYC_TOKEN:
-          return <img src="/nyc.png" className="m-1" width={size} height={size} alt="nyc" />;
         case FARI_TOKEN:
           return <img src="/fari.png" className="m-1" width={size} height={size} alt="fari" />;
         case BANANA_TOKEN:
@@ -40,8 +36,6 @@ export function AssetIcon({ type, trait, small, bw }) {
           return <img src="/usda.svg" className="m-1" width={size} height={size} alt="usda" />;
         case DIKO_TOKEN:
           return <img src="/diko.svg" className="m-1" width={size} height={size} alt="diko" />;
-        case BUK_TOKEN:
-          return <img src="/buk.png" className="m-1" width={size} height={size} alt="buk" />;
         default:
           return (
             <svg
@@ -134,26 +128,6 @@ export function AssetIcon({ type, trait, small, bw }) {
               width={size}
               height={size}
               alt="bitcoin monkeys"
-            />
-          );
-        case BUK_TOKEN:
-          return (
-            <img
-              src="/buk.png"
-              className="m-1"
-              width={size}
-              height={size}
-              alt="token"
-            />
-          );
-        case NYC_TOKEN:
-          return (
-            <img
-              src="/nyc.png"
-              className="m-1"
-              width={size}
-              height={size}
-              alt="token"
             />
           );
         default:

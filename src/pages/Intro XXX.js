@@ -21,9 +21,9 @@ export function GridOfSwaps({ hideAtomic, hideCatamaran }) {
         <div className="container pt-3">
           {!hideCatamaran && (
             <>
-              <h1>UPG DIGITAL ASSET XCHANGE</h1>
+              <h1>Catamaran Swaps</h1>
               <p className="h5">
-                Exhange Your Coins Tokens and NFTs.
+                Use catamaran swaps to exchange BTCs for digital assets on the Stacks chain.
               </p>
               <div className="container">
                 <div className="row">

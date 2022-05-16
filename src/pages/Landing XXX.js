@@ -9,14 +9,14 @@ export default function Landing(props) {
     <div className="Landing">
       <div className="jumbotron jumbotron-fluid pt-3 mb-0">
         <div className="container pt-3">
-          <h1 className="text-center">Digital Asset Exchange</h1>
+          <h1 className="text-center">Swap your digital assets..</h1>
           <div className="row">
             <div className="col text-center">
               <button
                 className="btn btn-lg btn-outline-primary mt-4"
                 onClick={e => navigate('/catamaran')}
               >
-                <p className="h5 text-center"> BTC and STX </p>
+                <p className="h5 text-center">.. between BTC and STX chain</p>
                 <div className="text-center container">
                   <div className="row align-items-center">
                     <div className="col">
@@ -32,7 +32,7 @@ export default function Landing(props) {
                     </div>
                   </div>
                 </div>
-                <p className="h5 text-center"></p>
+                <p className="h5 text-center">.. using catamaran swaps.</p>
               </button>
             </div>
             <div className="col text-center">
@@ -52,11 +52,11 @@ export default function Landing(props) {
                       <i className="bi bi-arrow-left"></i>
                     </div>
                     <div className="col">
-                      <AssetIcon type="buk" />
+                      <AssetIcon type="stx" />
                     </div>
                   </div>
                 </div>
-                <p className="h5 text-center"></p>
+                <p className="h5 text-center">.. atomic swaps.</p>
               </button>
             </div>
           </div>
